@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-labelledby="title desc">
+  <title id="title">ZC profile monogram</title>
+  <desc id="desc">A refined ZC monogram portrait for Zhang Chong's personal homepage.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#efe7d7"/>
+      <stop offset="0.52" stop-color="#d7e3d8"/>
+      <stop offset="1" stop-color="#c9d9d0"/>
+    </linearGradient>
+    <linearGradient id="mark" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#2f6f5e"/>
+      <stop offset="1" stop-color="#b16b3a"/>
+    </linearGradient>
+  </defs>
+  <rect width="512" height="512" rx="54" fill="url(#bg)"/>
+  <circle cx="256" cy="186" r="82" fill="#fff7ec" opacity="0.86"/>
+  <path d="M117 410c19-77 72-124 139-124s120 47 139 124" fill="#fff7ec" opacity="0.86"/>
+  <path d="M120 86h272v20H120zM120 424h272v20H120z" fill="#1f241f" opacity="0.16"/>
+  <text x="256" y="278" text-anchor="middle" font-size="108" font-family="Georgia, serif" font-weight="700" fill="url(#mark)">ZC</text>
+</svg>
