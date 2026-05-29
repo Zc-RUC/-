@@ -322,6 +322,12 @@ a {
   font-size: 0.94rem;
 }
 
+.timeline-item .role-title {
+  margin-top: 0.12rem;
+  color: var(--warm);
+  font-weight: 700;
+}
+
 .entry-meta {
   color: var(--warm) !important;
   font-weight: 700;
