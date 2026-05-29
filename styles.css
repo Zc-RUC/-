@@ -348,6 +348,21 @@ a {
   padding: 0.32rem 0.55rem;
 }
 
+.action-row a {
+  border: 1px solid var(--line);
+  border-radius: 0.45rem;
+  color: var(--accent-strong);
+  font: 700 0.78rem/1 ui-sans-serif, "Avenir Next", "PingFang SC", sans-serif;
+  padding: 0.42rem 0.65rem;
+  transition: background 160ms ease, border-color 160ms ease, color 160ms ease;
+}
+
+.action-row a:hover {
+  background: var(--accent);
+  border-color: var(--accent);
+  color: #fff;
+}
+
 .timeline {
   display: grid;
   gap: 1rem;
