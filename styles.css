@@ -349,6 +349,9 @@ a {
 }
 
 .action-row a {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.42rem;
   border: 1px solid var(--line);
   border-radius: 0.45rem;
   color: var(--accent-strong);
@@ -361,6 +364,16 @@ a {
   background: var(--accent);
   border-color: var(--accent);
   color: #fff;
+}
+
+.action-row svg {
+  width: 0.95rem;
+  height: 0.95rem;
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: 1.9;
 }
 
 .timeline {
