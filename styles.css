@@ -314,28 +314,6 @@ a {
   text-decoration-color: currentColor;
 }
 
-.company-heading {
-  display: flex;
-  align-items: center;
-  gap: 0.65rem;
-}
-
-.company-logo {
-  flex: 0 0 auto;
-  width: 2rem;
-  height: 2rem;
-  border: 1px solid var(--line);
-  border-radius: 0.45rem;
-  background: #fff;
-  object-fit: contain;
-  padding: 0.22rem;
-}
-
-.company-logo-wide {
-  width: 3.9rem;
-  padding: 0.24rem 0.36rem;
-}
-
 .entry-card p,
 .timeline-item p {
   margin: 0.45rem 0 0;
