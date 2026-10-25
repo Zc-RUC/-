@@ -2,6 +2,8 @@
 
 **在线访问 → [zc-ruc.github.io/-/](https://zc-ruc.github.io/-/)**
 
+![screenshot](./screenshot.jpg)
+
 静态个人主页：About / Projects / Experience / Research / Awards，深浅色一键切换（◐）。
 
 ## 页面结构
