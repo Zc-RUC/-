@@ -1,5 +1,7 @@
 # 张翀 | 个人主页
 
+**在线访问 → [zc-ruc.github.io/-/](https://zc-ruc.github.io/-/)**
+
 静态个人主页：About / Projects / Experience / Research / Awards，深浅色一键切换（◐）。
 
 ## 页面结构
@@ -15,7 +17,7 @@
 
 ## 本地预览与部署
 
-纯静态、零构建：直接打开 `index.html`，或部署到任意静态托管（GitHub Pages / Cloudflare Pages）。
+纯静态、零构建：直接打开 `index.html`。线上版由 GitHub Pages 托管（main 分支根目录）。
 
 ## 关于我
 
