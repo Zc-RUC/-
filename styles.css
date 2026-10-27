@@ -496,6 +496,10 @@ a {
     padding-top: 1.8rem;
   }
 
+  .section-block {
+    scroll-margin-top: 8rem;
+  }
+
   .profile-card {
     position: static;
   }
