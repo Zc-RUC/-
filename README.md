@@ -4,7 +4,7 @@
 
 ![screenshot](./screenshot.jpg)
 
-静态个人主页：About / Projects / Experience / Research / Awards，深浅色一键切换（◐）。
+静态个人主页：About / Projects / Experience / Research / Awards，深浅色与中英文一键切换（◐ / En）。
 
 ## 页面结构
 
@@ -14,7 +14,7 @@
 | `cv.html` | 完整简历 |
 | `mcm-paper.html` | 数学建模论文 |
 | `qiushi-paper.html` | 求是杯论文 |
-| `styles.css` / `script.js` | 样式与交互（深色模式） |
+| `styles.css` / `script.js` | 样式与交互（深色模式、中英文切换） |
 | `assets/` | 图片等静态资源 |
 
 ## 本地预览与部署

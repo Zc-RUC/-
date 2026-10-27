@@ -13,30 +13,33 @@
   </head>
   <body>
     <header class="site-header" data-header>
-      <a class="brand" href="#about">张翀</a>
-      <nav class="nav-links" aria-label="主导航">
+      <a class="brand" href="#about" data-i18n="brand">张翀</a>
+      <nav class="nav-links" aria-label="主导航" data-i18n-aria-label="nav.aria">
         <a href="#about">About</a>
         <a href="#projects">Projects</a>
         <a href="#experience">Experience</a>
         <a href="#research">Research</a>
         <a href="#awards">Awards</a>
       </nav>
-      <button class="theme-toggle" type="button" data-theme-toggle aria-label="切换深浅色">
-        <span class="theme-icon" aria-hidden="true">◐</span>
-      </button>
+      <div class="header-actions">
+        <button class="language-toggle" type="button" data-language-toggle aria-label="切换为纯英文">En</button>
+        <button class="theme-toggle" type="button" data-theme-toggle aria-label="切换深浅色" data-i18n-aria-label="theme.aria">
+          <span class="theme-icon" aria-hidden="true">◐</span>
+        </button>
+      </div>
     </header>
 
     <main class="page-shell">
-      <aside class="profile-panel" aria-label="个人信息">
+      <aside class="profile-panel" aria-label="个人信息" data-i18n-aria-label="profile.aria">
         <div class="profile-card">
-          <img class="avatar" src="assets/profile.jpg" alt="张翀头像" />
+          <img class="avatar" src="assets/profile.jpg" alt="张翀头像" data-i18n-alt="profile.avatar" />
           <div class="profile-title">
-            <h1>张翀</h1>
-            <p>AI 深度使用者</p>
-            <span>中国人民大学 · 经管交叉实验班</span>
+            <h1 data-i18n="profile.name">张翀</h1>
+            <p data-i18n="profile.tagline">AI 深度使用者</p>
+            <span data-i18n="profile.school">中国人民大学 · 经管交叉实验班</span>
           </div>
 
-          <div class="social-row" aria-label="社交链接">
+          <div class="social-row" aria-label="社交链接" data-i18n-aria-label="social.aria">
             <a href="https://github.com/Zc-RUC" target="_blank" rel="noreferrer" aria-label="GitHub">
               <svg viewBox="0 0 24 24" aria-hidden="true">
                 <path d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5a15.8 15.8 0 0 0-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.4 5.4 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65S8.93 17.38 9 18v4"/>
@@ -56,23 +59,23 @@
                 <path d="m22 7-8.97 5.7a2 2 0 0 1-2.06 0L2 7"/>
               </svg>
             </a>
-            <a href="https://maimai.cn/profile/detail?dstu=245317008&amp;trackable_token=GBg2v-iXDHcf1Oha8bX8kMYWvepBC5YnT_-gixyoAcqXWGcWbYFuSTgALinsAnFm" target="_blank" rel="noreferrer" aria-label="脉脉">
+            <a href="https://maimai.cn/profile/detail?dstu=245317008&amp;trackable_token=GBg2v-iXDHcf1Oha8bX8kMYWvepBC5YnT_-gixyoAcqXWGcWbYFuSTgALinsAnFm" target="_blank" rel="noreferrer" aria-label="脉脉" data-i18n-aria-label="social.maimai">
               <img class="social-brand-icon" src="assets/maimai.png" alt="" width="23" height="23" />
             </a>
           </div>
 
           <div class="quick-actions">
             <a class="pill-button" href="cv.html" target="_blank" rel="noreferrer">CV</a>
-            <button class="pill-button" type="button" data-copy-email>复制邮箱</button>
+            <button class="pill-button" type="button" data-copy-email data-i18n="actions.copyEmail">复制邮箱</button>
           </div>
 
           <section class="interest-box">
             <h2>Interests</h2>
             <ul>
-              <li>AI Agent 与招聘流程提效</li>
-              <li>独立工具与网页应用开发</li>
-              <li>硬科技、具身智能与先进制造</li>
-              <li>产业研究、投资运营与组织管理</li>
+              <li data-i18n="interests.ai">AI Agent 与招聘流程提效</li>
+              <li data-i18n="interests.tools">独立工具与网页应用开发</li>
+              <li data-i18n="interests.industry">硬科技、具身智能与先进制造</li>
+              <li data-i18n="interests.research">产业研究、投资运营与组织管理</li>
             </ul>
           </section>
         </div>
@@ -82,22 +85,22 @@
         <section id="about" class="section-block">
           <h2>About</h2>
           <div class="prose">
-            <p>
+            <p data-i18n="about.p1">
               我是张翀，目前就读于中国人民大学经管交叉实验班，GPA 3.76/4.00，专业排名第 3。
               我的经历横跨 AI 工具实践、HRBP、投资运营、行业研究与数据实证研究，长期关注如何用
               Agent、生成式 AI 和结构化工作流提升复杂信息处理与组织协作效率。
             </p>
-            <p>
+            <p data-i18n="about.p2">
               在字节跳动 Seed-AI Infra 相关实习中，我支持校招/社招与招聘团队 AI 工具使用，完成 27 届相关实验室
               硕博毕业生 500+ 人 Mapping，并通过配置 Codex 创作可复用的 Lab Mapper Skill，将原本高度依赖人工的
               Mapping 工作显著提速。
             </p>
-            <p>
+            <p data-i18n="about.p3">
               我熟悉 Codex、Claude Code、ChatGPT、Grok 等工具，也熟练使用 Wind、iFinD、Bloomberg、Python
               和 Stata 进行资料获取、数据处理与研究分析。我的目标是把 AI-native 的工作方式落到真实业务场景中，
               让信息搜集、候选人寻访、行业研究和知识管理变得更快、更准、更可复用。
             </p>
-            <p>
+            <p data-i18n="about.p4">
               除 AI Agent 外，我也使用原生 HTML/CSS/JavaScript、Python 和 Cloudflare Workers 开发轻量应用，
               将任务管理、餐饮记录等真实需求转化为可访问、可复用的工具。
             </p>
@@ -111,9 +114,9 @@
           </div>
           <div class="item-stack">
             <article class="entry-card">
-              <h3>DDL.MISSION：像素太空风 DDL 管理器</h3>
-              <p class="entry-meta">独立项目 · 2026.10</p>
-              <p>
+              <h3 data-i18n="projects.ddl.title">DDL.MISSION：像素太空风 DDL 管理器</h3>
+              <p class="entry-meta" data-i18n="projects.ddl.meta">独立项目 · 2026.10</p>
+              <p data-i18n="projects.ddl.body">
                 支持自然语言录入、秒级倒计时、循环任务与 macOS 原生通知，并通过本地同步服务器连接桌面小组件、
                 浏览器和局域网设备；内置四套主题，兼顾离线使用与多端同步。
               </p>
@@ -124,15 +127,15 @@
                 <span>Multi-device Sync</span>
               </div>
               <div class="tag-row action-row">
-                <a href="https://zc-ruc.github.io/ddl-mission/" target="_blank" rel="noreferrer" aria-label="在线体验 DDL.MISSION">Live Demo ↗</a>
-                <a href="https://github.com/Zc-RUC/ddl-mission" target="_blank" rel="noreferrer" aria-label="查看 DDL.MISSION 的 GitHub 源码">GitHub ↗</a>
+                <a href="https://zc-ruc.github.io/ddl-mission/" target="_blank" rel="noreferrer" aria-label="在线体验 DDL.MISSION" data-i18n-aria-label="projects.ddl.demoAria">Live Demo ↗</a>
+                <a href="https://github.com/Zc-RUC/ddl-mission" target="_blank" rel="noreferrer" aria-label="查看 DDL.MISSION 的 GitHub 源码" data-i18n-aria-label="projects.ddl.githubAria">GitHub ↗</a>
               </div>
             </article>
 
             <article class="entry-card">
-              <h3>减脂餐 · 京东科技大厦</h3>
-              <p class="entry-meta">独立项目 · 2026.10</p>
-              <p>
+              <h3 data-i18n="projects.meals.title">减脂餐 · 京东科技大厦</h3>
+              <p class="entry-meta" data-i18n="projects.meals.meta">独立项目 · 2026.10</p>
+              <p data-i18n="projects.meals.body">
                 移动端优先的单文件小站，整合一周餐单、商家比价、餐饮记账、体重趋势和周报；
                 数据保存在浏览器本地，并可通过 Cloudflare Worker 实现多端同步。
               </p>
@@ -143,15 +146,15 @@
                 <span>Mobile First</span>
               </div>
               <div class="tag-row action-row">
-                <a href="https://zc-ruc.github.io/jianzhi-meals/" target="_blank" rel="noreferrer" aria-label="在线体验减脂餐工具">Live Demo ↗</a>
-                <a href="https://github.com/Zc-RUC/jianzhi-meals" target="_blank" rel="noreferrer" aria-label="查看减脂餐工具的 GitHub 源码">GitHub ↗</a>
+                <a href="https://zc-ruc.github.io/jianzhi-meals/" target="_blank" rel="noreferrer" aria-label="在线体验减脂餐工具" data-i18n-aria-label="projects.meals.demoAria">Live Demo ↗</a>
+                <a href="https://github.com/Zc-RUC/jianzhi-meals" target="_blank" rel="noreferrer" aria-label="查看减脂餐工具的 GitHub 源码" data-i18n-aria-label="projects.meals.githubAria">GitHub ↗</a>
               </div>
             </article>
 
             <article class="entry-card">
-              <h3>Lab Mapper Skill：实验室学生 Mapping 自动化</h3>
-              <p class="entry-meta">字节跳动 Seed · 2026</p>
-              <p>
+              <h3 data-i18n="projects.lab.title">Lab Mapper Skill：实验室学生 Mapping 自动化</h3>
+              <p class="entry-meta" data-i18n="projects.lab.meta">字节跳动 Seed · 2026</p>
+              <p data-i18n="projects.lab.body">
                 面向 27 届相关实验室硕博毕业生寻访，配置 Codex 创作可复用的 Lab Mapper Skill，可根据给定链接
                 输出完整 Mapping 表格。累计梳理 500+ 人，较上一届全人工流程提速数倍。
               </p>
@@ -173,9 +176,9 @@
             </article>
 
             <article class="entry-card">
-              <h3>Author Sourcing Skill：论文作者寻访自动化</h3>
-              <p class="entry-meta">字节跳动 Seed · 2026</p>
-              <p>
+              <h3 data-i18n="projects.author.title">Author Sourcing Skill：论文作者寻访自动化</h3>
+              <p class="entry-meta" data-i18n="projects.author.meta">字节跳动 Seed · 2026</p>
+              <p data-i18n="projects.author.body">
                 面向 EuroSys、ASPLOS、FAST 等会议论文作者，自动化梳理作者主页、GitHub、Google Scholar、
                 导师、实验室和当前机构，把论文作者列表转化为可跟进的人才线索。
               </p>
@@ -197,9 +200,9 @@
             </article>
 
             <article class="entry-card">
-              <h3>Daily Paper Briefing Skill：每日论文速报</h3>
-              <p class="entry-meta">字节跳动 Seed · 2026</p>
-              <p>
+              <h3 data-i18n="projects.paper.title">Daily Paper Briefing Skill：每日论文速报</h3>
+              <p class="entry-meta" data-i18n="projects.paper.meta">字节跳动 Seed · 2026</p>
+              <p data-i18n="projects.paper.body">
                 关注系统、AI Infra 和相关方向每日新发论文，结合飞书 Aime、Mira 自动化生成论文速报和作者信息摘要，
                 为招聘团队提供持续更新的研究动态和候选人发现入口。
               </p>
@@ -228,35 +231,35 @@
             <article class="timeline-item">
               <time>2026.01 - 2026.07</time>
               <div>
-                <h3><a class="company-link" href="https://seed.bytedance.com/zh/" target="_blank" rel="noreferrer">字节跳动 Seed</a></h3>
+                <h3><a class="company-link" href="https://seed.bytedance.com/zh/" target="_blank" rel="noreferrer" data-i18n="experience.bytedance.company">字节跳动 Seed</a></h3>
                 <p class="role-title">HRBP For AI Infra</p>
-                <p>支持 Seed-AI Infra 团队校招/社招、招聘团队 AI 工具使用、候选人 Mapping、论文作者 Sourcing 与招聘流程提效。</p>
-                <p>每周分享 AI 工具使用心得与可复用 Skill，并对接 AI 招聘产品经理，交流 AI 的使用场景与落地方式。</p>
+                <p data-i18n="experience.bytedance.body1">支持 Seed-AI Infra 团队校招/社招、招聘团队 AI 工具使用、候选人 Mapping、论文作者 Sourcing 与招聘流程提效。</p>
+                <p data-i18n="experience.bytedance.body2">每周分享 AI 工具使用心得与可复用 Skill，并对接 AI 招聘产品经理，交流 AI 的使用场景与落地方式。</p>
               </div>
             </article>
             <article class="timeline-item">
               <time>2025.05 - 2025.10</time>
               <div>
-                <h3><a class="company-link" href="https://www.ubiquantpartners.com/" target="_blank" rel="noreferrer">九坤创投</a></h3>
-                <p class="role-title">投资运营 & HR 实习生</p>
-                <p>独立完成硬科技、AI、具身智能、先进制造与低空经济资料整理；承担 8 个岗位招聘，日均推送简历 10+，约面率约 80%。</p>
-                <p>后带领 2 位 HR 实习生完成招聘 SOP，帮助无经验同学熟悉招聘软件与全流程，并推进多类岗位招聘及猎头协作。</p>
+                <h3><a class="company-link" href="https://www.ubiquantpartners.com/" target="_blank" rel="noreferrer" data-i18n="experience.jiukun.company">九坤创投</a></h3>
+                <p class="role-title" data-i18n="experience.jiukun.role">投资运营 & HR 实习生</p>
+                <p data-i18n="experience.jiukun.body1">独立完成硬科技、AI、具身智能、先进制造与低空经济资料整理；承担 8 个岗位招聘，日均推送简历 10+，约面率约 80%。</p>
+                <p data-i18n="experience.jiukun.body2">后带领 2 位 HR 实习生完成招聘 SOP，帮助无经验同学熟悉招聘软件与全流程，并推进多类岗位招聘及猎头协作。</p>
               </div>
             </article>
             <article class="timeline-item">
               <time>2024.09 - 2025.05</time>
               <div>
-                <h3><a class="company-link" href="https://xueqiu.com/u/5165301084" target="_blank" rel="noreferrer">芯流智库</a></h3>
-                <p class="role-title">行业研究实习生</p>
-                <p>关注半导体、具身智能、AI、智驾行业动态，使用 Wind、Bloomberg、公司官网、IT 桔子等工具系统搜集资料并撰写分析。</p>
+                <h3><a class="company-link" href="https://xueqiu.com/u/5165301084" target="_blank" rel="noreferrer" data-i18n="experience.xinliu.company">芯流智库</a></h3>
+                <p class="role-title" data-i18n="experience.xinliu.role">行业研究实习生</p>
+                <p data-i18n="experience.xinliu.body">关注半导体、具身智能、AI、智驾行业动态，使用 Wind、Bloomberg、公司官网、IT 桔子等工具系统搜集资料并撰写分析。</p>
               </div>
             </article>
             <article class="timeline-item">
               <time>2024.06 - 2024.09</time>
               <div>
-                <h3><a class="company-link" href="https://www.cmschina.com/" target="_blank" rel="noreferrer">招商证券</a></h3>
-                <p class="role-title">投行部债券承做实习生</p>
-                <p>协助募集说明书、尽调报告、项目标书与路演材料制作，进行偿债能力分析、风险评估与数据整理。</p>
+                <h3><a class="company-link" href="https://www.cmschina.com/" target="_blank" rel="noreferrer" data-i18n="experience.cmb.company">招商证券</a></h3>
+                <p class="role-title" data-i18n="experience.cmb.role">投行部债券承做实习生</p>
+                <p data-i18n="experience.cmb.body">协助募集说明书、尽调报告、项目标书与路演材料制作，进行偿债能力分析、风险评估与数据整理。</p>
               </div>
             </article>
           </div>
@@ -267,8 +270,8 @@
           <div class="item-stack">
             <article class="entry-card">
               <h3>Modeling Ecological and Economic Impacts of Agricultural Practices for Sustainable Farming</h3>
-              <p class="entry-meta">核心成员 · 2024 美国大学生数学建模竞赛 M 奖</p>
-              <p>
+              <p class="entry-meta" data-i18n="research.agri.meta">核心成员 · 2024 美国大学生数学建模竞赛 M 奖</p>
+              <p data-i18n="research.agri.body">
                 构建多尺度耦合模型系统，整合动态系统理论、毒理学机制和多目标优化方法，量化农业生态转型中的化学品使用和物种引入效应。
                 负责数据预处理、图表可视化与论文撰写。
               </p>
@@ -277,16 +280,16 @@
               </div>
             </article>
             <article class="entry-card">
-              <h3>积极财税政策如何增强先进制造业供应链韧性？</h3>
-              <p class="entry-meta">第二作者 · 中国人民大学创新杯一等奖</p>
-              <p>
+              <h3 data-i18n="research.tax.title">积极财税政策如何增强先进制造业供应链韧性？</h3>
+              <p class="entry-meta" data-i18n="research.tax.meta">第二作者 · 中国人民大学创新杯一等奖</p>
+              <p data-i18n="research.tax.body">
                 基于 2015-2023 年 A 股先进制造业上市公司数据，构建高维双向固定效应模型，使用 DID 与多维 TOPSIS 指数识别留抵退税政策影响。
               </p>
             </article>
             <article class="entry-card">
-              <h3>35 岁年龄歧视对企业绩效的影响</h3>
-              <p class="entry-meta">第二作者 · 中国人民大学求是学术“首善”立项</p>
-              <p>
+              <h3 data-i18n="research.age.title">35 岁年龄歧视对企业绩效的影响</h3>
+              <p class="entry-meta" data-i18n="research.age.meta">第二作者 · 中国人民大学求是学术“首善”立项</p>
+              <p data-i18n="research.age.body">
                 基于上市企业招聘文本数据量化年龄歧视程度，研究劳动资源配置效率、创新能力的中介机制以及研发投入密集度的调节效应。
               </p>
               <div class="tag-row action-row">
@@ -301,23 +304,23 @@
           <div class="news-list">
             <article>
               <time>2026-10</time>
-              <p>发布 DDL.MISSION 与减脂餐 · 京东科技大厦两个独立工具，将任务管理和生活记录做成可直接使用的网页应用。</p>
+              <p data-i18n="news.tools">发布 DDL.MISSION 与减脂餐 · 京东科技大厦两个独立工具，将任务管理和生活记录做成可直接使用的网页应用。</p>
             </article>
             <article>
               <time>2026-01</time>
-              <p>加入字节跳动 Seed，支持 AI Infra 团队招聘与 AI 工具提效工作。</p>
+              <p data-i18n="news.bytedance">加入字节跳动 Seed，支持 AI Infra 团队招聘与 AI 工具提效工作。</p>
             </article>
             <article>
               <time>2025-05</time>
-              <p>在九坤创投参与投资运营与招聘工作，覆盖 AI、硬科技、具身智能和低空经济方向。</p>
+              <p data-i18n="news.jiukun">在九坤创投参与投资运营与招聘工作，覆盖 AI、硬科技、具身智能和低空经济方向。</p>
             </article>
             <article>
               <time>2024</time>
-              <p>获美国大学生数学建模竞赛 M 奖、中国人民大学创新杯一等奖、求是学术“首善”立项。</p>
+              <p data-i18n="news.awards">获美国大学生数学建模竞赛 M 奖、中国人民大学创新杯一等奖、求是学术“首善”立项。</p>
             </article>
             <article>
-              <time>2023 - 至今</time>
-              <p>担任中国人民大学劳动人事学院 2023 级本科人力资源管理 2 班班长，并参与学院学生会实践部、GEA 协会等学生工作。</p>
+              <time data-i18n="news.campus.date">2023 - 至今</time>
+              <p data-i18n="news.campus">担任中国人民大学劳动人事学院 2023 级本科人力资源管理 2 班班长，并参与学院学生会实践部、GEA 协会等学生工作。</p>
             </article>
           </div>
         </section>
