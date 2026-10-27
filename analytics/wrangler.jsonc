@@ -1,0 +1,14 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "zc-homepage-analytics",
+  "main": "worker.js",
+  "compatibility_date": "2026-10-27",
+  "workers_dev": true,
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "database_name": "zc-homepage-analytics",
+      "database_id": "ab93fa2b-70b3-40f4-9d70-426d81de9ce8"
+    }
+  ]
+}

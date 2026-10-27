@@ -1,0 +1,7 @@
+CREATE TABLE IF NOT EXISTS event_counts (
+  day TEXT NOT NULL,
+  event TEXT NOT NULL,
+  count INTEGER NOT NULL DEFAULT 0,
+  updated_at TEXT NOT NULL DEFAULT CURRENT_TIMESTAMP,
+  PRIMARY KEY (day, event)
+);
