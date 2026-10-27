@@ -11,11 +11,13 @@ const description = document.querySelector('meta[name="description"]');
 const translatedNodes = [...document.querySelectorAll("[data-i18n]")];
 const ariaLabelNodes = [...document.querySelectorAll("[data-i18n-aria-label]")];
 const altNodes = [...document.querySelectorAll("[data-i18n-alt]")];
+const hrefNodes = [...document.querySelectorAll("[data-i18n-href]")];
 const chineseTitle = document.title;
 const chineseDescription = description?.content;
 
 const english = {
   "brand": "Zhang Chong",
+  "cv.link": "cv-en.html",
   "nav.aria": "Main navigation",
   "theme.aria": "Toggle light and dark themes",
   "profile.aria": "Personal information",
@@ -85,6 +87,7 @@ const english = {
 const chinese = new Map(translatedNodes.map((node) => [node.dataset.i18n, node.textContent]));
 const chineseAriaLabels = new Map(ariaLabelNodes.map((node) => [node, node.getAttribute("aria-label")]));
 const chineseAlts = new Map(altNodes.map((node) => [node, node.getAttribute("alt")]));
+const chineseHrefs = new Map(hrefNodes.map((node) => [node, node.getAttribute("href")]));
 
 function applyLanguage(language) {
   const isEnglish = language === "en";
@@ -99,6 +102,10 @@ function applyLanguage(language) {
   altNodes.forEach((node) => {
     const translation = isEnglish ? english[node.dataset.i18nAlt] : chineseAlts.get(node);
     if (translation) node.setAttribute("alt", translation);
+  });
+  hrefNodes.forEach((node) => {
+    const translation = isEnglish ? english[node.dataset.i18nHref] : chineseHrefs.get(node);
+    if (translation) node.setAttribute("href", translation);
   });
   root.lang = isEnglish ? "en" : "zh-CN";
   document.body.dataset.language = language;

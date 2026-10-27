@@ -477,6 +477,289 @@ a {
   background: var(--surface);
 }
 
+.resume-page {
+  min-height: 100vh;
+  background: var(--bg);
+}
+
+.resume-nav {
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+.resume-document {
+  width: min(100% - 2rem, 54rem);
+  margin: 2rem auto 3rem;
+  padding: 2.5rem 3rem;
+  border: 1px solid var(--line);
+  border-radius: 0.6rem;
+  background: var(--surface);
+  box-shadow: var(--shadow);
+  color: var(--text);
+  font-family: ui-sans-serif, "Avenir Next", "PingFang SC", sans-serif;
+}
+
+.resume-hero {
+  display: flex;
+  justify-content: space-between;
+  gap: 2rem;
+  padding-bottom: 1.5rem;
+  border-bottom: 2px solid var(--accent);
+}
+
+.resume-hero h1 {
+  margin: 0;
+  font-size: 2.4rem;
+  line-height: 1.1;
+}
+
+.resume-tagline {
+  margin: 0.45rem 0 0;
+  color: var(--accent-strong);
+  font-size: 0.95rem;
+  font-weight: 700;
+}
+
+.resume-contact {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+  margin: 0;
+  font-size: 0.78rem;
+  font-style: normal;
+  text-align: right;
+}
+
+.resume-contact a {
+  overflow-wrap: anywhere;
+}
+
+.resume-section {
+  margin-top: 1.5rem;
+}
+
+.resume-section h2 {
+  margin: 0 0 0.75rem;
+  padding-bottom: 0.35rem;
+  border-bottom: 1px solid var(--line);
+  color: var(--accent-strong);
+  font-size: 1rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.resume-section p,
+.resume-section li {
+  font-size: 0.86rem;
+  line-height: 1.55;
+}
+
+.resume-section p {
+  margin: 0.35rem 0 0;
+}
+
+.resume-item + .resume-item {
+  margin-top: 1rem;
+}
+
+.resume-item-heading {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.resume-item h3 {
+  margin: 0;
+  font-size: 0.95rem;
+  line-height: 1.4;
+}
+
+.resume-role {
+  margin: 0.15rem 0 0 !important;
+  color: var(--muted);
+  font-weight: 600;
+}
+
+.resume-date {
+  flex: 0 0 auto;
+  color: var(--warm);
+  font-size: 0.76rem;
+  font-weight: 700;
+  white-space: nowrap;
+}
+
+.resume-item ul,
+.resume-compact-list {
+  margin: 0.4rem 0 0;
+  padding-left: 1.15rem;
+}
+
+.resume-skills {
+  margin: 0;
+}
+
+.resume-skills div {
+  display: grid;
+  grid-template-columns: 10rem 1fr;
+  gap: 0.7rem;
+  padding: 0.3rem 0;
+}
+
+.resume-skills dt {
+  color: var(--accent-strong);
+  font-size: 0.82rem;
+  font-weight: 700;
+}
+
+.resume-skills dd {
+  margin: 0;
+  font-size: 0.82rem;
+}
+
+@page {
+  size: A4;
+  margin: 11mm 12mm;
+}
+
+@media (max-width: 640px) {
+  .resume-nav {
+    position: static;
+    flex-wrap: wrap;
+  }
+
+  .resume-nav .brand {
+    white-space: nowrap;
+  }
+
+  .resume-nav .cv-actions {
+    width: 100%;
+    justify-content: flex-start;
+  }
+
+  .resume-document {
+    margin-top: 1rem;
+    padding: 1.4rem;
+  }
+
+  .resume-hero,
+  .resume-item-heading {
+    flex-direction: column;
+    gap: 0.55rem;
+  }
+
+  .resume-contact {
+    text-align: left;
+  }
+
+  .resume-skills div {
+    grid-template-columns: 1fr;
+    gap: 0.1rem;
+  }
+}
+
+@media print {
+  :root {
+    --text: #1f241f;
+    --muted: #4d554c;
+    --line: #d7d7d7;
+    --accent-strong: #174e42;
+    --warm: #8a4e28;
+  }
+
+  html,
+  body {
+    background: #fff !important;
+  }
+
+  .resume-nav {
+    display: none;
+  }
+
+  .resume-document {
+    width: auto;
+    max-width: none;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    border-radius: 0;
+    background: #fff;
+    box-shadow: none;
+  }
+
+  .resume-hero {
+    gap: 6mm;
+    padding-bottom: 3mm;
+    break-inside: avoid;
+  }
+
+  .resume-hero h1 {
+    font-size: 22pt;
+  }
+
+  .resume-tagline {
+    font-size: 10pt;
+  }
+
+  .resume-contact {
+    font-size: 8pt;
+  }
+
+  .resume-section {
+    margin-top: 4mm;
+  }
+
+  .resume-page-break {
+    break-before: page;
+  }
+
+  .resume-section h2 {
+    margin-bottom: 2mm;
+    font-size: 10pt;
+    break-after: avoid;
+  }
+
+  .resume-section p,
+  .resume-section li {
+    font-size: 8.8pt;
+    line-height: 1.42;
+  }
+
+  .resume-item {
+    break-inside: avoid;
+  }
+
+  .resume-item + .resume-item {
+    margin-top: 2.6mm;
+  }
+
+  .resume-item-heading {
+    break-inside: avoid;
+  }
+
+  .resume-item h3 {
+    font-size: 9.2pt;
+  }
+
+  .resume-role {
+    font-size: 8.4pt !important;
+  }
+
+  .resume-date {
+    font-size: 8pt;
+  }
+
+  .resume-skills dt,
+  .resume-skills dd {
+    font-size: 8.4pt;
+  }
+
+  a {
+    color: inherit;
+    text-decoration: none;
+  }
+}
+
 @keyframes rise-in {
   from {
     opacity: 0;
