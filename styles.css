@@ -213,13 +213,6 @@ a {
   stroke-width: 1.8;
 }
 
-.social-row .social-brand-icon {
-  display: block;
-  width: 1.45rem;
-  height: 1.45rem;
-  border-radius: 0.3rem;
-}
-
 .pill-button {
   border: 1px solid var(--line);
   border-radius: 0.5rem;
