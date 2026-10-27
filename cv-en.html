@@ -8,12 +8,12 @@
     <link rel="icon" href="assets/avatar.svg" />
     <link rel="stylesheet" href="styles.css" />
   </head>
-  <body class="resume-page">
+  <body class="resume-page" data-pageview="page:cv-en">
     <header class="cv-header resume-nav">
       <a class="brand" href="index.html">Zhang Chong</a>
       <div class="cv-actions">
-        <a class="pill-button" href="cv.html">中文 CV</a>
-        <a class="pill-button" href="assets/zhang-chong-cv-en.pdf" download>Download PDF</a>
+        <a class="pill-button" href="cv.html" data-analytics="cv:open:zh">中文 CV</a>
+        <a class="pill-button" href="assets/zhang-chong-cv-en.pdf" download data-analytics="cv:download:en">Download PDF</a>
         <a class="pill-button" href="index.html">Home</a>
       </div>
     </header>
@@ -181,5 +181,6 @@
         </dl>
       </section>
     </main>
+    <script src="analytics.js" defer></script>
   </body>
 </html>

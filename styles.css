@@ -436,6 +436,12 @@ a {
   font-size: 0.84rem;
 }
 
+.analytics-link {
+  color: var(--accent-strong);
+  text-decoration: underline;
+  text-underline-offset: 0.2em;
+}
+
 .cv-page {
   min-height: 100vh;
   background: var(--bg);
