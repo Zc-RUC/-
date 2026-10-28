@@ -1,6 +1,6 @@
 # 匿名聚合访问统计
 
-独立 Cloudflare Worker + D1 服务，用于统计个人主页的页面访问、Demo、CV、源码、Skill 下载、研究 PDF 和社交联系点击。
+独立 Cloudflare Worker + D1 服务，用于统计个人主页的页面访问、案例阅读、Demo、CV、源码、Skill 下载、研究 PDF 和社交联系点击。
 
 ## 隐私边界
 

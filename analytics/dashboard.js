@@ -75,14 +75,15 @@ export const dashboard = String.raw`<!doctype html>
       const labels = {
         "page:home":"主页访问","page:cv-zh":"中文 CV 访问","page:cv-en":"英文 CV 访问",
         "demo:ddl-mission":"DDL.MISSION Demo","demo:jianzhi-meals":"减脂餐 Demo",
+        "case:hub":"精选案例中心","case:ddl-mission":"DDL.MISSION 案例","case:jianzhi-meals":"减脂餐案例","case:lab-mapper":"Lab Mapper 案例","case:author-sourcing":"Author Sourcing 案例","case:daily-paper-briefing":"Daily Paper Briefing 案例",
         "cv:open:zh":"打开中文 CV","cv:open:en":"打开英文 CV","cv:download:zh":"打开中文 PDF","cv:download:en":"下载英文 PDF",
         "source:ddl-mission":"DDL.MISSION 源码","source:jianzhi-meals":"减脂餐源码","source:github-profile":"个人 GitHub",
         "skill:lab-mapper":"Lab Mapper 下载","skill:author-sourcing":"Author Sourcing 下载","skill:daily-paper-briefing":"Daily Paper Briefing 下载",
         "research:mcm":"数学建模 PDF","research:qiushi":"求是研究 PDF",
         "social:linkedin":"LinkedIn","social:maimai":"脉脉","contact:email":"邮件链接","contact:copy-email":"复制邮箱","system:ping":"系统检查"
       };
-      const categoryLabels = { page:"页面访问",demo:"Demo 点击",cv:"CV 点击",source:"源码点击",skill:"Skill 下载",research:"研究 PDF",social:"社交与联系" };
-      const categoryOrder = ["page","demo","cv","source","skill","research","social"];
+      const categoryLabels = { page:"页面访问",demo:"Demo 点击",case:"案例阅读",cv:"CV 点击",source:"源码点击",skill:"Skill 下载",research:"研究 PDF",social:"社交与联系" };
+      const categoryOrder = ["page","demo","case","cv","source","skill","research","social"];
       const periodSelect = document.querySelector("#period");
       const summary = document.querySelector("#summary");
       const events = document.querySelector("#events");
