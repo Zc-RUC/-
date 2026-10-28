@@ -24,6 +24,10 @@
 
 纯静态、零构建：直接打开 `index.html`。线上版由 GitHub Pages 托管（main 分支根目录）。
 
+## 最新独立项目
+
+- [LitDesk](https://github.com/Zc-RUC/litdesk)：本地优先的 AI 文献工作台，支持 PDF 文件夹同步、阅读笔记、CSL 引用、浅灰底纹域引用，以及可选 AI 文献解析与一键 AI 补全。查看[中文本地部署说明](https://github.com/Zc-RUC/litdesk/blob/main/README.zh-CN.md#本地部署)。
+
 ## 项目案例
 
 独立案例中心：[zc-ruc.github.io/case-studies-demo](https://zc-ruc.github.io/case-studies-demo/)，包含 Lab Mapper、DDL.MISSION、Author Sourcing、Healthy Meals、Daily Paper Briefing 的实际问题、职责、解决流程、技术实现、成果数据与演示。原主页的 Projects & Tools 标题区和五个项目标题均已接入对应案例页。
