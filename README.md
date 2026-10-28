@@ -24,6 +24,10 @@
 
 纯静态、零构建：直接打开 `index.html`。线上版由 GitHub Pages 托管（main 分支根目录）。
 
+## 项目案例
+
+独立案例中心：[zc-ruc.github.io/case-studies-demo](https://zc-ruc.github.io/case-studies-demo/)，包含 Lab Mapper、DDL.MISSION、Author Sourcing、Healthy Meals、Daily Paper Briefing 的实际问题、职责、解决流程、技术实现、成果数据与演示。原主页的 Projects & Tools 标题区和五个项目标题均已接入对应案例页。
+
 ## 关于我
 
 中国人民大学经管交叉实验班（2023 级），关注 AI Agent × 招聘流程提效、硬科技与先进制造、产业研究与数据实证。详见站内 About 页。

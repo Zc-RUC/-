@@ -18,6 +18,7 @@ const chineseDescription = description?.content;
 const english = {
   "brand": "Zhang Chong",
   "cv.link": "cv-en.html",
+  "projects.caseHub": "Case Studies →",
   "footer.analytics": "Privacy-friendly analytics",
   "nav.aria": "Main navigation",
   "theme.aria": "Toggle light and dark themes",
