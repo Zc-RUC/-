@@ -26,7 +26,7 @@
 
 ## 最新独立项目
 
-- [LitDesk](https://github.com/Zc-RUC/litdesk)：本地优先的 AI 文献工作台，支持 PDF 文件夹同步、阅读笔记、CSL 引用、浅灰底纹域引用，以及可选 AI 文献解析与一键 AI 补全。查看[中文本地部署说明](https://github.com/Zc-RUC/litdesk/blob/main/README.zh-CN.md#本地部署)。
+- [LitDesk](https://github.com/Zc-RUC/litdesk)：本地优先的 AI 文献工作台，支持 PDF 文件夹同步、阅读笔记、CSL 引用、浅灰底纹域引用，以及可选 AI 文献解析与一键 AI 补全。可体验[在线 Demo](https://zc-ruc.github.io/-/litdesk/)（内置示例数据，不读取本地文件），或查看[中文本地部署说明](https://github.com/Zc-RUC/litdesk/blob/main/README.zh-CN.md#本地部署)。
 
 ## 项目案例
 
