@@ -26,11 +26,12 @@
 
 ## 最新独立项目
 
+- [Downbit Local](https://github.com/Zc-RUC/downbit-local)：本地优先的视频与音频下载工作台，支持直链多连接、HLS 分片、断点续传、直播录制、MP3 提取、资料库和共用任务 CLI。可直接下载[最新 Release](https://github.com/Zc-RUC/downbit-local/releases/latest)，或查看[项目案例](https://zc-ruc.github.io/case-studies-demo/downbit.html)。
 - [LitDesk](https://github.com/Zc-RUC/litdesk)：本地优先的 AI 文献工作台，支持 PDF 文件夹同步、阅读笔记、CSL 引用、浅灰底纹域引用，以及可选 AI 文献解析与一键 AI 补全。可体验[在线 Demo](https://zc-ruc.github.io/-/litdesk/)（内置示例数据，不读取本地文件），或查看[中文本地部署说明](https://github.com/Zc-RUC/litdesk/blob/main/README.zh-CN.md#本地部署)。
 
 ## 项目案例
 
-独立案例中心：[zc-ruc.github.io/case-studies-demo](https://zc-ruc.github.io/case-studies-demo/)，包含 Lab Mapper、DDL.MISSION、Author Sourcing、Healthy Meals、Daily Paper Briefing 的实际问题、职责、解决流程、技术实现、成果数据与演示。原主页的 Projects & Tools 标题区和五个项目标题均已接入对应案例页。
+独立案例中心：[zc-ruc.github.io/case-studies-demo](https://zc-ruc.github.io/case-studies-demo/)，包含 Downbit Local、Lab Mapper、DDL.MISSION、Author Sourcing、Healthy Meals、Daily Paper Briefing 的实际问题、职责、解决流程、技术实现、成果数据与演示。原主页的 Projects & Tools 标题区和六个项目标题均已接入对应案例页。
 
 ## 关于我
 
